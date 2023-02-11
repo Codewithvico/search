@@ -1,0 +1,673 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #202124;
+    color: #ffffff;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    position: absolute;
+    width: 100%;
+    height: 80px;
+}
+
+@media screen and (width <= 768px) {
+    header {
+        width: 100%;
+        height: 60px;
+    }
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+}
+
+@media screen and (width <= 768px) {
+    .header > span {
+        margin: 15px 8px;
+        font-size: 12px;
+    }
+    
+    span a {
+        text-decoration: none;
+        color: #ffffff;
+    }
+    
+    .header > .s_image {
+        width: 25px !important;
+        height: 25px !important;
+    }
+    
+    .gi_image {
+        position: relative;
+        width: 200px;
+    }
+    
+    .img_span {
+        margin-left: -100px;
+        margin-top: 10px;
+    
+    }
+    
+    .material-symbols-outlined {
+        font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 38
+      }
+    
+    
+    .material-symbols-outlined {
+      font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 48,
+    }
+    
+    
+      main {
+        top: 250px !important;
+      }
+    
+      main form {
+        margin: 20px;
+       
+      }
+    
+      main > .g_image {
+        width: 109px !important;
+        left: 0px;
+        margin: auto;
+      }
+    
+      form > .myinput {
+        position: relative;
+        width: 100% !important;
+      }
+
+      input[type="text"] {
+        width: 300px !important;
+        height: 35px !important;
+      }
+    
+      form > input[type="submit"] {
+        display: none;
+      }
+    
+      form > input[type="submit"]:hover{
+        background-color: #000;
+        color: #fff;
+        cursor: pointer;
+      }
+    
+      input[type="button"] {
+        width: 100px;
+        height: 40px;
+        background: #8ab4f8;
+        border: 1px solid transparent;
+        border-radius: 5px;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        color: #202124;
+      }
+    
+      #submit {
+        position: relative;
+        height: 33px;
+        border-radius: 20px;
+        outline: none;
+        border: none;
+        padding: 10px;
+        right: 192px;
+        background-color: #8ab4f8;
+      }
+    
+      footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        background-color: #171717;
+      }
+    
+      .footer > .wrapper {
+        height: 30px;
+        margin-bottom: 15px;
+        position: relative;
+      }
+    
+      .wrapper > span {
+        position: relative;
+        top: 10px;
+        padding: 15px;
+        color: #9aa0a6;
+        
+      }
+    
+      .footer_list {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 15px;
+      }
+    
+      ul {
+        display: flex;
+        height: 100px;
+        bottom: 0;
+        flex-wrap: wrap;
+      }
+    
+     ul li {
+        list-style-type: none;
+        margin: 10px;
+        color: #9aa0a6;
+        cursor: pointer;
+        font-size: smaller;
+      }
+}
+
+.header > span {
+    margin: 20px 10px;
+}
+
+span a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.header .s_image {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin: 15px;
+}
+
+.gi_image {
+    position: relative;
+    right: auto;
+}
+
+#adv_header {
+    position: relative;
+    float: unset;
+    right: 1669px;
+    top: 15px;
+}
+
+#adv_header > img {
+    width: 90px;
+    top: 10px;
+}
+
+.appbar {
+    color: #f28b82;
+    font-size: 20px;
+    margin: 90px 55px;
+    
+}
+
+.appbar_hr {
+    position: relative;
+    bottom: 65px;
+    border-bottom: .5px solid #3c4043;
+}
+
+.img_span {
+    position: relative;
+    color: #4487f6;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    bottom: 20px;
+    left: 106px;
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48,
+}
+
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    position: relative;
+    top: 300px;
+  }
+
+  #gis_main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    position: relative;
+    top: 200px;
+  }
+
+  main form {
+    margin: 20px;
+   
+  }
+
+  main > .g_image {
+    position: relative;
+  }
+
+  form > .myinput > input[type="text"] {
+    position: relative;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 600px;
+    height: 40px;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid #6b7074;
+    padding: 0 10px;
+    margin-top: 10px;
+    background-color: transparent;
+    color: #fff;
+  }
+
+  input[type="text"]:focus {
+    border: none !important;
+    background-color: transparent;
+  }
+  input[type="text"]:hover {
+    border: none !important;
+  }
+
+  form > .mysubmit {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    align-content: center;
+    margin: 20px;
+    flex-wrap: wrap;
+  }
+
+  input[type="submit"] {
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+  }
+
+   input[type="submit"]:hover{
+    color: #fff;
+    border: .5px solid #828080;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+  }
+
+  input[type="button"] {
+    width: 100px;
+    height: 40px;
+    background: #8ab4f8;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #202124;
+  }
+
+  button {
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  button > a {
+    color: #e8eaed;
+    text-decoration: none;
+  }
+
+  button:hover {
+        color: #fff;
+        border: .5px solid #828080;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 1s ease-in-out;
+  }
+
+  /* Google Search Ends */
+
+  /* GIS Styling */
+
+  form > .myinput {
+    background: #303134;
+    border-radius: 24px;
+    box-shadow: 0px 4px 6px rgb(32 33 36 / 28%);
+    margin-left: -4px;
+    margin-top: 0;
+    width: calc(100% + 8px);
+    z-index: 989;
+  }
+
+
+
+  .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+
+  .title > span {
+    color: rgb(241,243,244);
+    font-family: "Google Sans Display",Roboto,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 14px;
+    text-align: center;
+    letter-spacing: .1px;
+    padding-top: 15px;
+  }
+
+  .ddwrapper {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    width: 600px; 
+  }
+
+  .ddwrap {
+    background: rgb(32,33,36);
+    border: 1px dashed rgb(60,64,67);
+    border-radius: 8px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 280px;
+    position: relative;
+    width: 100%;
+  }
+
+  .ddwrap > svg, p {
+    position: relative;
+    left: 25px;
+    font-size: 12px;
+  }
+
+  .ainput {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    margin: 14px 0;
+  }
+
+  .ainput > input[type="text"] {
+    background-color: #303134;
+    border: 1px solid rgb(60,64,67);
+    color: rgb(241,243,244);
+    border-radius: 36px;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: inline-flex;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
+    font-size: 14px;
+    font-family: "Google Sans Display",Roboto,Arial,sans-serif;
+    height: 40px;
+    padding: 0 24px;
+    width: 100%;
+    outline: none;
+  }
+
+  .ainput > input[type="submit"] {
+    align-items: center;
+    background: #303134;
+    border-radius: 32px;
+    border: 1px solid rgb(60,64,67);
+    color: rgb(138,180,248);
+    cursor: pointer;
+    display: inline-flex;
+    flex-shrink: 0;
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    font-size: 14px;
+    justify-content: center;
+    letter-spacing: .25px;
+    margin-left: 8px;
+    outline: 0;
+    padding: 0px 24px;
+    bottom: 9px;
+    position: relative;
+    height: 40px;
+  }
+
+  #submit {
+    position: relative;
+    height: 33px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    background-color: transparent;
+  }
+
+  /* GIS Styling Ends */
+
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #171717;
+  }
+
+  .footer > .wrapper {
+    height: 30px;
+    margin-bottom: 15px;
+    position: relative;
+  }
+
+  .wrapper > span {
+    position: relative;
+    top: 10px;
+    padding: 15px;
+    color: #9aa0a6;
+    
+  }
+
+  .hr {
+    border-bottom: 1px solid #3c4043;
+  }
+
+  .footer_list {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+  }
+
+  ul {
+    display: flex;
+    height: 100px;
+    bottom: 0;
+  }
+
+ ul li {
+    list-style-type: none;
+    margin: 10px;
+    color: #9aa0a6;
+    cursor: pointer;
+  }
+
+/* #9aa0a6, #171717 */
+
+/* GAS Styling */
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  top: 160px;
+  left: 60px;
+}
+
+.gas_title {
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  flex-wrap: wrap;
+  width: 800px;
+}
+
+.gas_title > .fpage, .todo{
+  position: relative;
+  color: rgb(241,243,244);
+  font-family: "Google Sans Display",Roboto,Arial,sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 14px;
+  text-align: center;
+}
+
+.advanceForm {
+  margin: 0 !;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: Arial, sans-serif;
+
+}
+
+
+.advFormWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.myInputs {
+  display: flex;
+  width: 100%;
+  margin: 7px;
+}
+
+.myInputs > .left {
+  max-width: 85px;
+}
+.myInputs > .middle {
+  padding-right: 16px;
+  display: inline-block;
+  min-width: 167px;
+  min-height: 41px;
+  vertical-align: middle;
+  width: 60%;
+}
+.myInputs > .right {
+  flex: 1;
+  position: relative;
+  left: 30px;
+}
+
+.text {
+  height: 30px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.tiny {
+  height: 30px;
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 12px;
+}
+
+.tinydottext {
+  font-family: monospace;
+  font-size: 8px;
+  color: #dadce0 !important;
+}
+
+
+.tinySpanInput {
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  border-radius: 1px;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  font-size: 13px;
+  height: 25px;
+  padding: 1px 8px;
+  background: #202124;
+  border: 1px solid #5f6368;
+  color: #bdc1c6;
+  width: 100%;
+  text-align: left;
+  margin: 0 10px;
+}
+
+.buttonWrapper {
+  position: absolute;
+  width: 800px;
+}
+
+.buttonXWrap {
+  border-bottom: 1px solid #60666b;
+}
+
+#myAdvBtn {
+  background: #8ab4f8;
+  border-color: #8ab4f8;
+  color: #202124;
+  float: right;
+  -webkit-user-select: none ;
+  user-select: none;
+  line-height: 100%;
+  height: 30px;
+  min-width: 120px;
+  margin: 10px 0;
+  font-size: 11px;
+  font-weight: bold;
+  text-align: center;
+}
